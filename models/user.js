@@ -14,7 +14,7 @@ const applicationSchema = new mongoose.Schema({
   },
   postingLink: {
     type: String,
-  }
+  },
   status: {
     type: String,
     enum: ['interested', 'applied', 'interviewing', 'rejected', 'accepted'],
